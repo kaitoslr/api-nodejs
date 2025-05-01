@@ -1,0 +1,26 @@
+# Ignora arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Ignora arquivos de IDEs
+.vscode/
+
+# Ignora logs
+*.log
+*.log.*
+
+# Ignora diretórios específicos de build
+dist/
+build/
+out/
+
+# Ignora arquivos de ambiente
+.env
+
+# Ignora arquivos de cache do npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Não ignora node_modules
+!node_modules/
